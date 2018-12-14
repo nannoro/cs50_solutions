@@ -1,2 +1,2 @@
 # cs50_solutions
-Solutions for cs50 pset's 2018
+This repository contains solutions to problem sets for Harvard's CS50.
