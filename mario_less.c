@@ -8,7 +8,7 @@
 
 int main(void)
 {
-    //Declare 'piramid heigh' variable in a scope and ask user for a number
+    //Declare 'pyramid heigh' variable in a scope and ask user for a number
     int heigh;
     do
     {
@@ -16,7 +16,7 @@ int main(void)
     }
     while (heigh > 23 || heigh < 0);
 
-    //Generating the piramid
+    //Generating the pyramid
     for (int line = 0; line < heigh; line++)
     {
         for (int spaces = heigh - line; spaces > 1; spaces--)
