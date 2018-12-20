@@ -8,18 +8,18 @@
 
 int main(void)
 {
-    //Declare 'pyramid heigh' variable in a scope and ask user for a number
-    int heigh;
+    //Declare 'pyramid height' variable in a scope and ask user for a number
+    int height;
     do
     {
-        heigh = get_int("Input pyramid height (positive number!): ");
+        height = get_int("Input pyramid height (positive number!): ");
     }
-    while (heigh > 23 || heigh < 0);
+    while (height > 23 || height < 0);
 
     //Generating the pyramid
-    for (int line = 0; line < heigh; line++)
+    for (int line = 0; line < height; line++)
     {
-        for (int spaces = heigh - line; spaces > 1; spaces--)
+        for (int spaces = height - line; spaces > 1; spaces--)
         {
             printf(" ");
         }
