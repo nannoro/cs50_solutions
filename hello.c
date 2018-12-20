@@ -1,6 +1,6 @@
 /**
  * Hello world!
- * I guess this one doesn't need any additional explanation
+ * I guess this one is pretty self explanatory
 **/
 
 #include <stdio.h>
